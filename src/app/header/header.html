@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      Nikhitha R Bhandary
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home" [class.active]="activeSection === 'home'">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about" [class.active]="activeSection === 'about'">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#about" [class.active]="activeSection === 'experience'">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills" [class.active]="activeSection === 'skills'">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects" [class.active]="activeSection === 'projects'">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" [class.active]="activeSection === 'contact'">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
