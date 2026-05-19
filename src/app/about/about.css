@@ -32,6 +32,7 @@
 /* TEXT SIDE */
 .content-section {
   flex: 1;
+  transform:none !important;
 
   h2 {
     font-size: 40px;
